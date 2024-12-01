@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
-const controller = require("../controllers/levelController");
+const controller = require("../controllers/LevelController");
 
 router.use(cors());
 router.use(express.json());
